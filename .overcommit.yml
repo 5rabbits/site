@@ -1,0 +1,10 @@
+PreCommit:
+  RuboCop:
+    enabled: true
+    problem_on_unmodified_line: ignore
+  Fasterer:
+    enabled: true
+    problem_on_unmodified_line: ignore
+  Reek:
+    enabled: true
+    problem_on_unmodified_line: ignore
