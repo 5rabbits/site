@@ -1,0 +1,53 @@
+- name: Abraham Barrera
+  description: "Desarrollador por vocación, apasionado por el código desde hace 20 años, los cuales ha dedicado al desarrollo web y móvil, adquiriendo la capacidad de desenvolverse en todo el stack tecnológico.
+                Gracias a su curiosidad y la convicción de querer hacer las cosas bien, siempre ha tenido que liderar equipos donde ha trabajado, sin embargo, lo que le apasiona realmente es la programación y la ciencia, esperando algún día poder hackear la matrix y liberarlos a todos.
+                Santiaguino y músico de corazón, no soporta el exceso de gente pero tampoco la paz absoluta durante tiempo prolongado, pasa su tiempo libre con su familia y tocando buena música."
+  short_name: el capi
+  avatar_url: https://i.imgur.com/RVZym2i.png
+  skills: "Desarrollo de software: Ruby, Javascript, Ruby on Rails, Java
+           Arquitectura de software
+           Liderazgo técnico "
+  links:
+    - type: email
+      url: 'mailto:abarrera@lemontech.com'
+    - type: github
+      url: https://github.com/a-bx
+    - type: linkedin
+      url: https://www.linkedin.com/in/abrahambarrera/
+    - type: twitter
+      url: https://twitter.com/abraham_barrera"
+  personal_quote:
+    quote: "Any fool can write code that a computer can understand. Good programmers write code that humans can understand."
+    author: Martin Fowler
+- name: Daniel Ochoa
+  description: Ingeniero y MSc de la Universidad de Santiago. Despertó su pasión por el código a los 10 años, desarrollando sus propios juegos de video. Ama la tecnología y no pierde oportunidad de enseñarla a otros.
+  short_name: goat developer
+  avatar_url: https://i.imgur.com/RVZym2i.png
+  skills: "Desarrollo de software; Ruby, Javascript, Java, Arquitectura y diseño de software, liderazgo técnico, speaker."
+  links:
+    - type: email
+      url: 'mailto:dochoa@lemontech.com'
+    - type: github
+      url: https://github.com/dochoaj
+    - type: linkedin
+      url: https://www.linkedin.com/in/juanochoajohn/
+  personal_quote:
+    quote: "El trabajo duro nunca te traiciona."
+    author: Daniel Ochoa
+- name: Andres Arellano
+  description: Actualmente CTO de Lemontech. Es Ingeniero TI de la PUC en Chile, y Magíster en Ingeniería de Sistemas de la University of Maryland en Estados Unidos. Su trayectoria ha estado principalmente marcada por proyectos de innovación digital, fomento al emprendimiento en la industria del software y modernización del sector público a través del gobierno digital. Ha sido docente de la Universidad de Chile e investigador en el Centro de Estudios de Tecnologías de la Información de la PUC. Apasionado por construir valor para las personas utilizando las tecnologías de la información. Ciclista urbano, padre de tres niñas y fanático de las montañas.
+  short_name:
+  avatar_url: https://i.imgur.com/RVZym2i.png
+  skills: "Liderazgo de equipos, definición de estrategia, desarrollo de productos, arquitectura de software"
+  links:
+    - type: email
+      url: 'mailto:aarellano@lemontech.com'
+    - type: github
+      url: https://github.com/aarellano
+    - type: linkedin
+      url: https://www.linkedin.com/in/aarellanor
+    - type: twitter
+      url: https://twitter.com/aarellanor
+  personal_quote:
+    quote: "There are only two ways to live your life: as though nothing is a miracle, or as though everything is a miracle"
+    author: A. Einstein

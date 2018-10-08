@@ -4,4 +4,6 @@ Rails.application.routes.draw do
   get '/about', to: 'application#about'
   get '/community', to: 'application#community'
   get '/blog', to: 'application#blog'
+  get '/team', to: 'application#team'
+  get '/team/:name', to: 'application#member', as: 'member'
 end

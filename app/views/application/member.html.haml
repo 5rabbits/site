@@ -1,0 +1,20 @@
+%section.landing
+  %h1= @member['name']
+  %p
+    = @member['personal_quote']['quote']
+    = @member['personal_quote']['author']
+  %p= @member['description']
+
+  %ul
+    - @member['links'].each do |link|
+      %li= link_to link['url']
+  %p
+    = @member['skills']
+
+  All team
+  %ul
+    - @team.each do |member|
+      %li
+        - name = member['name']
+        = link_to name, member_path(name: name)
+
