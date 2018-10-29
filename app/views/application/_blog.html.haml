@@ -2,7 +2,7 @@
   = render locals: { entry: @blog_entries[0] }, partial: 'blog_entry'
 
 .all-articles
-  - @blog_entries[1..-1].each_slice(2) do |entries|
+  - @blog_entries[1..-1].each_slice(3) do |entries|
     .row
       - entries.each do |entry|
         .col-lg
