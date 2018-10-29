@@ -7,4 +7,12 @@
 .app-navbar {
   padding: 32px 0;
   background: #fff;
+
+  .nav-item + .nav-item {
+    margin-left: 16px;
+  }
+
+  .nav-item.active {
+    border-bottom: $primary solid 2px;
+  }
 }
