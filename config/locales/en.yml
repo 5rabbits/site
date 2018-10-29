@@ -32,19 +32,16 @@
 en:
   application:
     home:
-      link: Home
+      link: Inicio
       title: Lemontech Engineering Team
       subtitle: ¡Lo bueno que somos viejou! 😏
       latest_articles: Últimos artículos
       show_more_articles: Ver más artículos
-    about:
-      link: About
-      title: Lo bueno que somos viejou
     team:
-      link: Team
+      link: Nosotros
       title: LBQSSS
     community:
-      link: Community
+      link: Comunidad
       title: OpenSource
     blog:
       link: Blog

@@ -6,8 +6,6 @@ class ApplicationController < ActionController::Base
     end
   end
 
-  def about; end
-
   def team
     @team = load_setting('team')
   end
@@ -28,7 +26,7 @@ class ApplicationController < ActionController::Base
   def blog_feed
     blog_url = "#{ENV['BLOG']}/feed"
     feed = Feedjira::Feed.fetch_and_parse(blog_url)
-    feed.entries
+    feed.entries[0..4]
   end
 
   def find_by_name(team, name)
