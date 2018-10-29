@@ -37,6 +37,7 @@ en:
       subtitle: ¡Lo bueno que somos viejou! 😏
       latest_articles: Últimos artículos
       show_more_articles: Ver más artículos
+      lemontech: Nuestras aplicaciones
     team:
       link: Nosotros
       title: LBQSSS
@@ -45,4 +46,9 @@ en:
       title: OpenSource
     blog:
       link: Blog
+    apps:
+      tbx: La mejor experiencia de ingreso de horas para estudios jurídicos
+      ct: Automatiza el seguimiento y gestión de tus juicios
+      ipm: Registra, vigila y monitorea tus marcas y dominios
+
 

@@ -3,11 +3,22 @@
 
   section {
     padding: 80px 0;
+    position: relative;
+  }
+
+  section:nth-child(odd)::before {
+    content: '';
+    position: absolute;
+    background-image: linear-gradient(to right, transparent, rgba(#002A32, 0.35), transparent);
+    height: 1px;
+    top: 0;
+    right: 0;
+    left: 0;
   }
 
   h2 {
     text-align: center;
-    margin-bottom: 48px;
+    margin-bottom: 64px;
   }
 
   .call-to-action {
@@ -84,6 +95,55 @@
 
     .row + .row {
       margin-top: $blog-entries-spacing;
+    }
+
+    @include media-breakpoint-down('md') {
+      .col-lg + .col-lg {
+        margin-top: $blog-entries-spacing;
+      }
+    }
+  }
+
+  .our-apps {
+    display: flex;
+
+    .tbx,
+    .ct,
+    .ipm {
+      text-align: center;
+      height: 100%;
+      color: #fff;
+      padding: 40px;
+      border-radius: 8px;
+      box-shadow: 0 7px 24px 1px rgba(0,0,0,.2), 0 20px 30px 5px rgba(0,0,0,.1);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      img {
+        max-width: 216px;
+        width: 100%;
+        flex-shrink: 0;
+        margin-bottom: 8px;
+      }
+
+      p {
+        margin-top: auto;
+        margin-bottom: 0;
+        text-shadow: rgba(#000, 0.1) 0 -1px 1px;
+      }
+    }
+
+    .tbx {
+      background-color: #0667F9;
+    }
+
+    .ct {
+      background-color: #FF6102;
+    }
+
+    .ipm {
+      background-color: #FFCB02;
     }
 
     @include media-breakpoint-down('md') {

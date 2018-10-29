@@ -4,6 +4,30 @@
       .home-title= t('.title')
       .home-subtitle= t('.subtitle')
 
+  %section.our-apps
+    .container
+      %h2= t('.lemontech')
+
+      .row
+        .col-lg
+          .tbx
+            = image_tag 'tbx.png'
+            %p= t('application.apps.tbx')
+
+        .col-lg
+          .ct
+            = image_tag 'ct.png'
+            %p= t('application.apps.ct')
+
+        .col-lg
+          .ipm
+            = image_tag 'ipm.png'
+            %p= t('application.apps.ipm')
+
+      .call-to-action
+        = link_to 'https://www.lemontech.com', class: 'btn btn-outline-primary btn-lg', target: :_blank do
+          Ver más información
+
   %section.blog-entries
     .container
       %h2= t('.latest_articles')
