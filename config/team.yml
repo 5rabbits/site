@@ -1,39 +1,90 @@
-- name: Abraham Barrera
-  description: "Desarrollador por vocación, apasionado por el código desde hace 20 años, los cuales ha dedicado al desarrollo web y móvil, adquiriendo la capacidad de desenvolverse en todo el stack tecnológico.
-                Gracias a su curiosidad y la convicción de querer hacer las cosas bien, siempre ha tenido que liderar equipos donde ha trabajado, sin embargo, lo que le apasiona realmente es la programación y la ciencia, esperando algún día poder hackear la matrix y liberarlos a todos.
-                Santiaguino y músico de corazón, no soporta el exceso de gente pero tampoco la paz absoluta durante tiempo prolongado, pasa su tiempo libre con su familia y tocando buena música."
-  short_name: el capi
-  avatar_url: https://i.imgur.com/RVZym2i.png
-  skills: "Desarrollo de software: Ruby, Javascript, Ruby on Rails, Java
-           Arquitectura de software
-           Liderazgo técnico "
+- name: Gabriel Wurman
+  description: |
+    Ingeniero TI de la PUC, actualmente desarrollador de software. Apasioinado por la Ingeniería de Software.
+  short_name: gwurman
+  avatar_url:
+  skills: |
+    "Desarrollo de Software: NodeJS, PHP, C#, RoR, React, Ingeniería de Software"
   links:
-    - type: email
-      url: 'mailto:abarrera@lemontech.com'
+    - type: github
+      url: https://github.com/gwurman
+  personal_quote:
+    quote: "La vida es una fiesta y yo soy la piñata."
+    author:
+
+- name: Sebastián González
+  description: |
+    "Actualmente desarrollador web, amante de la computación física y los robots. En sus años de estudiante se dedicó al mundo de Software Libre llegando a ser parte de la comunidad chilena de Debian.
+
+    Inquieto por naturaleza siempre en busqueda de nuevos conocimientos y hobbies. Desde hace 1 año practica el complejo arte del cambio de pañales y esquivar combos y patadas nocturnas.
+
+    Amante del buen rock y la cerveza, a menudo se escapa a bares a disfrutar de música en vivo."
+  short_name: frutal
+  avatar_url:
+  skills: |
+    "Front-end: Aprendiz de React, Angular, JavaScript, CSS
+    Back-end: PHP, NodeJS"
+  links:
+    - type: github
+      url: https://github.com/brutalchrist
+    - type: medium
+      url: https://medium.com/@brutalchrist
+  personal_quote:
+
+- name: Gerald Lara
+  description: |
+    "Ingeniero entusiasta de lo simple, le apasiona desarrollar soluciones amigables a las personas para hacer su vida más sencilla y eficiente. Es un convencido de que todo se puede aprender y mejorar, por ello divide su tiempo desarrollando software, haciendo música, leyendo libros, generando ideas y compartiendo todo esto con los demás.
+    Oriundo de la ciudad del Trueno y Ranguerino por herencia y tradición."
+  short_name: glara
+  avatar_url:
+  skills: |
+    "Desarrollo de software: RoR, PHP, Javascript, React"
+  links:
+    - type: github
+      url: https://github.com/glara
+  personal_quote:
+    quote: |
+      "A path is only a path, and there is no affront, to oneself or to others, in dropping it if that is what your heart tells you... Look at every path closely and deliberately. Try it as many times as you think necessary. Then ask yourself alone, one question... Does this path have a heart? If it does, the path is good; if it doesn't it is of no use."
+    author: Carlos Castaneda
+
+- name: Víctor Sánchez
+  description:
+  short_name: vitoco
+  avatar_url:
+  skills: |
+    "Desarrollo de software: Ruby, Javascript, ROR, React"
+  links:
+    - type: github
+      url: https://github.com/Vsanchezr
+    - type: linkedin
+      url: https://www.linkedin.com/in/vlsanchezr/
+  personal_quote:
+
+- name: Abraham Barrera
+  description: |
+    "Desarrollador por vocación, apasionado por el código desde hace 20 años, los cuales ha dedicado al desarrollo web y móvil, adquiriendo la capacidad de desenvolverse en todo el stack tecnológico.
+
+    Gracias a su curiosidad y la convicción de querer hacer las cosas bien, siempre ha tenido que liderar equipos donde ha trabajado, sin embargo, lo que le apasiona realmente es la programación y la ciencia, esperando algún día poder hackear la matrix y liberarlos a todos.
+
+    Santiaguino y músico de corazón, no soporta el exceso de gente pero tampoco la paz absoluta durante tiempo prolongado, pasa su tiempo libre con su familia y tocando buena música. "
+  short_name: el capi
+  avatar_url:
+  skills: |
+    "Desarrollo de software: Ruby, Javascript, Ruby on Rails, Java
+    Arquitectura de software
+    Liderazgo técnico"
+  links:
     - type: github
       url: https://github.com/a-bx
     - type: linkedin
       url: https://www.linkedin.com/in/abrahambarrera/
     - type: twitter
-      url: https://twitter.com/abraham_barrera"
+      url: https://twitter.com/abraham_barrera
   personal_quote:
-    quote: "Any fool can write code that a computer can understand. Good programmers write code that humans can understand."
+    quote: |
+      Any fool can write code that a computer can understand. Good programmers write code that humans can understand.
     author: Martin Fowler
-- name: Daniel Ochoa
-  description: Ingeniero y MSc de la Universidad de Santiago. Despertó su pasión por el código a los 10 años, desarrollando sus propios juegos de video. Ama la tecnología y no pierde oportunidad de enseñarla a otros.
-  short_name: goat developer
-  avatar_url: https://i.imgur.com/RVZym2i.png
-  skills: "Desarrollo de software; Ruby, Javascript, Java, Arquitectura y diseño de software, liderazgo técnico, speaker."
-  links:
-    - type: email
-      url: 'mailto:dochoa@lemontech.com'
-    - type: github
-      url: https://github.com/dochoaj
-    - type: linkedin
-      url: https://www.linkedin.com/in/juanochoajohn/
-  personal_quote:
-    quote: "El trabajo duro nunca te traiciona."
-    author: Daniel Ochoa
+
 - name: Andres Arellano
   description: Actualmente CTO de Lemontech. Es Ingeniero TI de la PUC en Chile, y Magíster en Ingeniería de Sistemas de la University of Maryland en Estados Unidos. Su trayectoria ha estado principalmente marcada por proyectos de innovación digital, fomento al emprendimiento en la industria del software y modernización del sector público a través del gobierno digital. Ha sido docente de la Universidad de Chile e investigador en el Centro de Estudios de Tecnologías de la Información de la PUC. Apasionado por construir valor para las personas utilizando las tecnologías de la información. Ciclista urbano, padre de tres niñas y fanático de las montañas.
   short_name:
