@@ -1,5 +1,9 @@
-.container
-  %section.landing
-    %h1=t('.title')
-    %h2=t('.subtitle')
-  = render 'blog'
+.home
+  %header
+    .home-image
+      .home-text
+        .home-title= t('.title')
+        .home-subtitle= t('.subtitle')
+
+  .container
+    = render 'blog'
