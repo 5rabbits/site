@@ -4,6 +4,25 @@ class ApplicationController < ActionController::Base
     @blog_entries = Rails.cache.fetch('blog_entries', expires_in: 12.hours) do
       blog_feed
     end
+
+    @tech = [
+      { name: 'Javascript', weight: 2 },
+      { name: 'React', weight: 2.5 },
+      { name: 'Ruby', weight: 2 },
+      { name: 'Ruby on Rails', weight: 2.5 },
+      { name: 'PHP', weight: 1.75 },
+      { name: 'Machine Learning', weight: 1.75 },
+      { name: 'Java', weight: 1.7 },
+      { name: 'Python', weight: 1 },
+      { name: 'NodeJS', weight: 1.25 },
+      { name: 'CSS', weight: 2 },
+      { name: 'UX/UI', weight: 2 },
+      { name: 'Electron', weight: 1.25 },
+      { name: 'React Native', weight: 1.2 },
+      { name: 'Go', weight: 1 },
+      { name: 'Laravel', weight: 1 },
+      { name: 'VueJS', weight: 1 },
+    ].shuffle
   end
 
   def team

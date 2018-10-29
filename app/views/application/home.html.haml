@@ -4,6 +4,20 @@
       .home-title= t('.title')
       .home-subtitle= t('.subtitle')
 
+  %section.who-we-are
+    .container
+      %h2= t('.who_we_are.title')
+      = simple_format t('.who_we_are.text')
+
+      .cloud
+        .cloud-contents
+          - @tech.each do |tech|
+            %span{ style: "font-size:#{tech[:weight]}em;" }= tech[:name]
+
+      .call-to-action
+        = link_to team_url, class: 'btn btn-outline-primary btn-lg', target: :_blank do
+          = t('.who_we_are.cta')
+
   %section.our-apps
     .container
       %h2= t('.lemontech')
