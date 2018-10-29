@@ -1,6 +1,16 @@
 %section.blog
   - @blog_entries.each do |entry|
-    = entry.title
-    = entry.author
-    %br
-    %br
+    .blog-entry
+      .blog-entry__date
+        = entry.published.strftime("%d/%m/%Y")
+
+      %a.blog-entry__title{ href: entry.url, target: :_blank }
+        = entry.title
+
+      .blog-entry__author
+        = entry.author
+
+      .blog-entry__categories
+        - entry.categories.map do |category|
+          %span.badge.badge-secondary.blog-entry__category
+            = category
