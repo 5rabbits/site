@@ -38,6 +38,9 @@ en:
     about:
       link: About
       title: Lo bueno que somos viejou
+    team:
+      link: Team
+      title: LBQSSS
     community:
       link: Community
       title: OpenSource
