@@ -35,7 +35,8 @@ en:
       link: Home
       title: Lemontech Engineering Team
       subtitle: ¡Lo bueno que somos viejou! 😏
-      blog_entries: Últimos artículos
+      latest_articles: Últimos artículos
+      show_more_articles: Ver más artículos
     about:
       link: About
       title: Lo bueno que somos viejou

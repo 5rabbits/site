@@ -6,6 +6,10 @@
 
   %section.blog-entries
     .container
-      %h2= t('.blog_entries')
+      %h2= t('.latest_articles')
 
       = render 'blog'
+
+      .call-to-action
+        = link_to blog_url, class: 'btn btn-outline-primary btn-lg', target: :_blank do
+          = t('.show_more_articles')
