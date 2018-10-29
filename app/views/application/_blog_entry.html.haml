@@ -1,0 +1,15 @@
+.blog-entry
+  .blog-entry__date
+    = entry.published.strftime("%d/%m/%Y")
+
+  %a.blog-entry__title{ href: entry.url, target: :_blank }
+    = entry.title
+
+  .blog-entry__author
+    = entry.author
+
+  - if entry.categories.try(:size) > 0
+    .blog-entry__categories
+      - entry.categories.map do |category|
+        %span.badge.badge-secondary.blog-entry__category
+          = category

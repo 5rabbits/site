@@ -1,16 +1,10 @@
-%section.blog
-  - @blog_entries.each do |entry|
-    .blog-entry
-      .blog-entry__date
-        = entry.published.strftime("%d/%m/%Y")
+.recent-articles
+  - @blog_entries[0..1].each do |entry|
+    = render locals: { entry: entry }, partial: 'blog_entry'
 
-      %a.blog-entry__title{ href: entry.url, target: :_blank }
-        = entry.title
-
-      .blog-entry__author
-        = entry.author
-
-      .blog-entry__categories
-        - entry.categories.map do |category|
-          %span.badge.badge-secondary.blog-entry__category
-            = category
+.all-articles
+  - @blog_entries[2..-1].each_slice(2) do |entries|
+    .row
+      - entries.each do |entry|
+        .col-lg
+          = render locals: { entry: entry }, partial: 'blog_entry'

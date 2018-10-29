@@ -1,9 +1,11 @@
 .home
-  %header
-    .home-image
-      .home-text
-        .home-title= t('.title')
-        .home-subtitle= t('.subtitle')
+  .home-image
+    .home-text
+      .home-title= t('.title')
+      .home-subtitle= t('.subtitle')
 
-  .container
-    = render 'blog'
+  %section.blog-entries
+    .container
+      %h2= t('.blog_entries')
+
+      = render 'blog'
