@@ -12,4 +12,10 @@ module ApplicationHelper
       asset_url('default-profile.jpg')
     end
   end
+
+  def nav_item_class(action)
+    classes = ['nav-item']
+    classes << 'active' if params[:action] == action
+    classes.join(' ')
+  end
 end

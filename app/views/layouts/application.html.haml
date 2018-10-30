@@ -17,15 +17,15 @@
 
         #navbarSupportedContent.collapse.navbar-collapse
           %ul.navbar-nav.ml-auto
-            %li.nav-item.active
+            %li{ class: nav_item_class('home') }
               = link_to '/', class: 'nav-link' do
                 = t('application.home.link')
 
-            %li.nav-item
+            %li{ class: nav_item_class('team') }
               = link_to team_url, class: 'nav-link' do
                 = t('application.team.link')
 
-            %li.nav-item
+            %li{ class: nav_item_class('community') }
               = link_to community_url, class: 'nav-link' do
                 = t('application.community.link')
 
