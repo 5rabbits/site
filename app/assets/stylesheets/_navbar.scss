@@ -1,3 +1,7 @@
+body {
+  padding-top: 58px;
+}
+
 .app-logo {
   font-family: $font-family-let;
   font-size: 32px;
@@ -5,14 +9,24 @@
 }
 
 .app-navbar {
-  padding: 32px 0;
   background: #fff;
+}
 
-  .nav-item + .nav-item {
-    margin-left: 16px;
+@include media-breakpoint-up('lg') {
+  body {
+    padding-top: 106px;
   }
 
-  .nav-item.active {
-    border-bottom: $primary solid 2px;
+  .app-navbar {
+    padding-top: 32px;
+    padding-bottom: 32px;
+
+    .nav-item.active {
+      border-bottom: $primary solid 2px;
+    }
+
+    .nav-item + .nav-item {
+      margin-left: 16px;
+    }
   }
 }
