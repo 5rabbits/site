@@ -1,26 +1,6 @@
 .home {
   $blog-entries-spacing: 48px;
 
-  section {
-    padding: 104px 0;
-    position: relative;
-  }
-
-  section + section::before {
-    content: '';
-    position: absolute;
-    background-image: linear-gradient(to right, transparent, rgba(#002A32, 0.4), transparent);
-    height: 1px;
-    top: 0;
-    right: 0;
-    left: 0;
-  }
-
-  h2 {
-    text-align: center;
-    margin-bottom: 64px;
-  }
-
   .call-to-action {
     margin-top: 64px;
     text-align: center;
