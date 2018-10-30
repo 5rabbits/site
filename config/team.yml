@@ -2,7 +2,7 @@
   description: |
     Ingeniero TI de la PUC, actualmente desarrollador de software. Apasioinado por la Ingeniería de Software.
   short_name: gwurman
-  avatar_url:
+  avatar_url: profiles/gwurman.png
   skills: |
     "Desarrollo de Software: NodeJS, PHP, C#, RoR, React, Ingeniería de Software"
   links:
@@ -20,7 +20,7 @@
 
     Amante del buen rock y la cerveza, a menudo se escapa a bares a disfrutar de música en vivo."
   short_name: frutal
-  avatar_url:
+  avatar_url: profiles/sgonzalez.png
   skills: |
     "Front-end: Aprendiz de React, Angular, JavaScript, CSS
     Back-end: PHP, NodeJS"
@@ -36,7 +36,7 @@
     "Ingeniero entusiasta de lo simple, le apasiona desarrollar soluciones amigables a las personas para hacer su vida más sencilla y eficiente. Es un convencido de que todo se puede aprender y mejorar, por ello divide su tiempo desarrollando software, haciendo música, leyendo libros, generando ideas y compartiendo todo esto con los demás.
     Oriundo de la ciudad del Trueno y Ranguerino por herencia y tradición."
   short_name: glara
-  avatar_url:
+  avatar_url: profiles/glara.png
   skills: |
     "Desarrollo de software: RoR, PHP, Javascript, React"
   links:
@@ -50,7 +50,7 @@
 - name: Víctor Sánchez
   description:
   short_name: vitoco
-  avatar_url:
+  avatar_url: profiles/vsanchez.png
   skills: |
     "Desarrollo de software: Ruby, Javascript, ROR, React"
   links:
@@ -68,7 +68,7 @@
 
     Santiaguino y músico de corazón, no soporta el exceso de gente pero tampoco la paz absoluta durante tiempo prolongado, pasa su tiempo libre con su familia y tocando buena música. "
   short_name: el capi
-  avatar_url:
+  avatar_url: profiles/abarrera.png
   skills: |
     "Desarrollo de software: Ruby, Javascript, Ruby on Rails, Java
     Arquitectura de software
@@ -85,10 +85,10 @@
       Any fool can write code that a computer can understand. Good programmers write code that humans can understand.
     author: Martin Fowler
 
-- name: Andres Arellano
+- name: Andrés Arellano
   description: Actualmente CTO de Lemontech. Es Ingeniero TI de la PUC en Chile, y Magíster en Ingeniería de Sistemas de la University of Maryland en Estados Unidos. Su trayectoria ha estado principalmente marcada por proyectos de innovación digital, fomento al emprendimiento en la industria del software y modernización del sector público a través del gobierno digital. Ha sido docente de la Universidad de Chile e investigador en el Centro de Estudios de Tecnologías de la Información de la PUC. Apasionado por construir valor para las personas utilizando las tecnologías de la información. Ciclista urbano, padre de tres niñas y fanático de las montañas.
   short_name:
-  avatar_url: https://i.imgur.com/RVZym2i.png
+  avatar_url: profiles/aarellano.png
   skills: "Liderazgo de equipos, definición de estrategia, desarrollo de productos, arquitectura de software"
   links:
     - type: email
@@ -102,3 +102,42 @@
   personal_quote:
     quote: "There are only two ways to live your life: as though nothing is a miracle, or as though everything is a miracle"
     author: A. Einstein
+
+- name: Claudio Briones
+  avatar_url: profiles/cbriones.png
+
+- name: Nicolás Torres
+  avatar_url: profiles/ntorres.png
+
+- name: Claudio Peralta
+  avatar_url: profiles/cperalta.png
+
+- name: Daniel Ochoa
+  avatar_url: profiles/dochoa.png
+
+- name: Andrés Lazo
+  avatar_url: profiles/alazo.png
+
+- name: Rodrigo Díaz
+  avatar_url: profiles/rdiaz.png
+
+- name: Javier López
+  avatar_url: profiles/jlopez.png
+
+- name: Alfonso Guzmán
+  avatar_url: profiles/aguzman.png
+
+- name: Javier Segovia
+  avatar_url: profiles/jsegovia.png
+
+- name: Vladimir Zurita
+  avatar_url: profiles/vzurita.png
+
+- name: Paula Madariaga
+  avatar_url: profiles/pmadariaga.png
+
+- name: Giannina Giannecchini
+  avatar_url: profiles/ggiannecchini.png
+
+- name: Ángelo Calvo
+  avatar_url: profiles/acalvo.png

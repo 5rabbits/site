@@ -1,9 +1,14 @@
-%section.landing
-  %h1=t('.title')
-  %h2=t('.subtitle')
-  %ul
-    - @team.each do |member|
-      %li
-        - name = member['name']
-        = link_to name, member_path(name: name)
+%section.team
+  .container
+    %h1=t('.title')
+    %h2=t('.subtitle')
+
+    %ul.team-list
+      - @team.each do |member|
+        %li.member
+          .member-image
+            %div{ style: "background-image:url('#{asset_url(member['avatar_url'])}');" }
+
+          .member-name
+            = link_to member['name'].split(' ').first, member_path(name: member['name'])
 
