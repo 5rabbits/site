@@ -19,7 +19,7 @@
               %ul
                 - @member['links'].each do |link|
                   %li
-                    %a.member-social-link{ href: link['url'], target: :_blank, rel: 'noopener noreferrer' }
+                    %a.member-social-link{ href: link['url'], target: if link['type'] == 'email' then nil else :_blank end, rel: 'noopener noreferrer' }
                       = inline_svg "services/#{link['type']}.svg"
                       %span= link['username']
 
