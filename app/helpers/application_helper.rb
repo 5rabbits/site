@@ -13,9 +13,9 @@ module ApplicationHelper
     end
   end
 
-  def nav_item_class(action)
+  def nav_item_class(*actions)
     classes = ['nav-item']
-    classes << 'active' if params[:action] == action
+    classes << 'active' if actions.include?(params[:action])
     classes.join(' ')
   end
 end

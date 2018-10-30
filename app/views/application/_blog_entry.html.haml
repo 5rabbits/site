@@ -4,5 +4,5 @@
   .blog-entry__date
     = entry.published.strftime("%d/%m/%Y")
 
-  %a.blog-entry__title{ href: entry.url, target: :_blank }
+  %a.blog-entry__title{ href: entry.url, target: :_blank, rel: 'noopener noreferrer' }
     = entry.title

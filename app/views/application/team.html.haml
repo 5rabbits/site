@@ -2,12 +2,5 @@
   .container
     %h1=t('.title')
 
-    %ul.team-list
-      - @team.each do |member|
-        %li.member
-          .member-image
-            %div{ style: "background-image:url('#{asset_url(member['avatar_url'])}');" }
-
-          .member-name
-            = link_to member['name'].split(' ').first, member_path(name: member['name'])
+    = render partial: 'team_grid', locals: { team: @team }
 

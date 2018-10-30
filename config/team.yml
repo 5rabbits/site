@@ -3,102 +3,146 @@
     Ingeniero TI de la PUC, actualmente desarrollador de software. Apasioinado por la Ingeniería de Software.
   short_name: gwurman
   avatar_url: profiles/gwurman.png
-  skills: |
-    "Desarrollo de Software: NodeJS, PHP, C#, RoR, React, Ingeniería de Software"
+  skills:
+    - NodeJS
+    - PHP
+    - C#
+    - RoR
+    - React
+    - Ingeniería de Software
   links:
     - type: github
       url: https://github.com/gwurman
+      username: gwurman
   personal_quote:
     quote: "La vida es una fiesta y yo soy la piñata."
     author:
 
 - name: Sebastián González
   description: |
-    "Actualmente desarrollador web, amante de la computación física y los robots. En sus años de estudiante se dedicó al mundo de Software Libre llegando a ser parte de la comunidad chilena de Debian.
+    Actualmente desarrollador web, amante de la computación física y los robots. En sus años de estudiante se dedicó al mundo de Software Libre llegando a ser parte de la comunidad chilena de Debian.
 
     Inquieto por naturaleza siempre en busqueda de nuevos conocimientos y hobbies. Desde hace 1 año practica el complejo arte del cambio de pañales y esquivar combos y patadas nocturnas.
 
-    Amante del buen rock y la cerveza, a menudo se escapa a bares a disfrutar de música en vivo."
+    Amante del buen rock y la cerveza, a menudo se escapa a bares a disfrutar de música en vivo.
   short_name: frutal
   avatar_url: profiles/sgonzalez.png
-  skills: |
-    "Front-end: Aprendiz de React, Angular, JavaScript, CSS
-    Back-end: PHP, NodeJS"
+  skills:
+    - Aprendiz de React
+    - Angular
+    - JavaScript
+    - CSS
+    - PHP
+    - NodeJS
   links:
     - type: github
       url: https://github.com/brutalchrist
+      username: brutalchrist
     - type: medium
       url: https://medium.com/@brutalchrist
+      username: "@brutalchrist"
   personal_quote:
 
 - name: Gerald Lara
   description: |
-    "Ingeniero entusiasta de lo simple, le apasiona desarrollar soluciones amigables a las personas para hacer su vida más sencilla y eficiente. Es un convencido de que todo se puede aprender y mejorar, por ello divide su tiempo desarrollando software, haciendo música, leyendo libros, generando ideas y compartiendo todo esto con los demás.
-    Oriundo de la ciudad del Trueno y Ranguerino por herencia y tradición."
+    Ingeniero entusiasta de lo simple, le apasiona desarrollar soluciones amigables a las personas para hacer su vida más sencilla y eficiente. Es un convencido de que todo se puede aprender y mejorar, por ello divide su tiempo desarrollando software, haciendo música, leyendo libros, generando ideas y compartiendo todo esto con los demás.
+    Oriundo de la ciudad del Trueno y Ranguerino por herencia y tradición.
   short_name: glara
   avatar_url: profiles/glara.png
-  skills: |
-    "Desarrollo de software: RoR, PHP, Javascript, React"
+  skills:
+    - RoR
+    - PHP
+    - Javascript
+    - React
   links:
     - type: github
       url: https://github.com/glara
+      username: glara
   personal_quote:
     quote: |
-      "A path is only a path, and there is no affront, to oneself or to others, in dropping it if that is what your heart tells you... Look at every path closely and deliberately. Try it as many times as you think necessary. Then ask yourself alone, one question... Does this path have a heart? If it does, the path is good; if it doesn't it is of no use."
+      A path is only a path, and there is no affront, to oneself or to others, in dropping it if that is what your heart tells you... Look at every path closely and deliberately. Try it as many times as you think necessary. Then ask yourself alone, one question... Does this path have a heart? If it does, the path is good; if it doesn't it is of no use.
     author: Carlos Castaneda
 
 - name: Víctor Sánchez
   description:
   short_name: vitoco
   avatar_url: profiles/vsanchez.png
-  skills: |
-    "Desarrollo de software: Ruby, Javascript, ROR, React"
+  skills:
+    - Ruby
+    - Javascript
+    - RoR
+    - React
   links:
     - type: github
       url: https://github.com/Vsanchezr
+      username: Vsanchezr
     - type: linkedin
       url: https://www.linkedin.com/in/vlsanchezr/
+      username: vlsanchezr
   personal_quote:
 
 - name: Abraham Barrera
   description: |
-    "Desarrollador por vocación, apasionado por el código desde hace 20 años, los cuales ha dedicado al desarrollo web y móvil, adquiriendo la capacidad de desenvolverse en todo el stack tecnológico.
+    Desarrollador por vocación, apasionado por el código desde hace 20 años, los cuales ha dedicado al desarrollo web y móvil, adquiriendo la capacidad de desenvolverse en todo el stack tecnológico.
 
     Gracias a su curiosidad y la convicción de querer hacer las cosas bien, siempre ha tenido que liderar equipos donde ha trabajado, sin embargo, lo que le apasiona realmente es la programación y la ciencia, esperando algún día poder hackear la matrix y liberarlos a todos.
 
-    Santiaguino y músico de corazón, no soporta el exceso de gente pero tampoco la paz absoluta durante tiempo prolongado, pasa su tiempo libre con su familia y tocando buena música. "
+    Santiaguino y músico de corazón, no soporta el exceso de gente pero tampoco la paz absoluta durante tiempo prolongado, pasa su tiempo libre con su familia y tocando buena música.
   short_name: el capi
   avatar_url: profiles/abarrera.png
-  skills: |
-    "Desarrollo de software: Ruby, Javascript, Ruby on Rails, Java
-    Arquitectura de software
-    Liderazgo técnico"
+  skills:
+    - Ruby
+    - Javascript
+    - Ruby on Rails
+    - Java
+    - Arquitectura de software
+    - Liderazgo técnico
   links:
     - type: github
       url: https://github.com/a-bx
+      username: a-bx
     - type: linkedin
       url: https://www.linkedin.com/in/abrahambarrera/
+      username: abrahambarrera
     - type: twitter
       url: https://twitter.com/abraham_barrera
+      username: "@abraham_barrera"
   personal_quote:
     quote: |
       Any fool can write code that a computer can understand. Good programmers write code that humans can understand.
     author: Martin Fowler
 
 - name: Andrés Arellano
-  description: Actualmente CTO de Lemontech. Es Ingeniero TI de la PUC en Chile, y Magíster en Ingeniería de Sistemas de la University of Maryland en Estados Unidos. Su trayectoria ha estado principalmente marcada por proyectos de innovación digital, fomento al emprendimiento en la industria del software y modernización del sector público a través del gobierno digital. Ha sido docente de la Universidad de Chile e investigador en el Centro de Estudios de Tecnologías de la Información de la PUC. Apasionado por construir valor para las personas utilizando las tecnologías de la información. Ciclista urbano, padre de tres niñas y fanático de las montañas.
+  description: |
+    Actualmente CTO de Lemontech. Es Ingeniero TI de la PUC en Chile, y Magíster en Ingeniería de Sistemas de la University of Maryland en Estados Unidos.
+
+    Su trayectoria ha estado principalmente marcada por proyectos de innovación digital, fomento al emprendimiento en la industria del software y modernización del sector público a través del gobierno digital.
+
+    Ha sido docente de la Universidad de Chile e investigador en el Centro de Estudios de Tecnologías de la Información de la PUC.
+
+    Apasionado por construir valor para las personas utilizando las tecnologías de la información.
+
+    Ciclista urbano, padre de tres niñas y fanático de las montañas.
   short_name:
   avatar_url: profiles/aarellano.png
-  skills: "Liderazgo de equipos, definición de estrategia, desarrollo de productos, arquitectura de software"
+  skills:
+    - Liderazgo de equipos
+    - Definición de estrategia
+    - Desarrollo de productos,
+    - Arquitectura de software
   links:
     - type: email
       url: 'mailto:aarellano@lemontech.com'
+      username: aarellano@lemontech.com
     - type: github
       url: https://github.com/aarellano
+      username: aarellano
     - type: linkedin
       url: https://www.linkedin.com/in/aarellanor
+      username: aarellanor
     - type: twitter
       url: https://twitter.com/aarellanor
+      username: "@aarellanor"
   personal_quote:
     quote: "There are only two ways to live your life: as though nothing is a miracle, or as though everything is a miracle"
     author: A. Einstein

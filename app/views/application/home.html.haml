@@ -40,7 +40,7 @@
             %p= t('application.apps.ipm')
 
       .call-to-action
-        = link_to 'https://www.lemontech.com', class: 'btn btn-outline-primary btn-lg', target: :_blank do
+        = link_to 'https://www.lemontech.com', class: 'btn btn-outline-primary btn-lg', target: :_blank, rel: 'noopener noreferrer' do
           Ver más información
 
   %section.blog-entries
@@ -50,5 +50,5 @@
       = render 'blog'
 
       .call-to-action
-        = link_to blog_url, class: 'btn btn-outline-primary btn-lg', target: :_blank do
+        = link_to blog_url, class: 'btn btn-outline-primary btn-lg', target: :_blank, rel: 'noopener noreferrer' do
           = t('.show_more_articles')

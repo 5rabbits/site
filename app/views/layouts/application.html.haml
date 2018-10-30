@@ -21,7 +21,7 @@
               = link_to '/', class: 'nav-link' do
                 = t('application.home.link')
 
-            %li{ class: nav_item_class('team') }
+            %li{ class: nav_item_class('team', 'member') }
               = link_to team_url, class: 'nav-link' do
                 = t('application.team.link')
 
@@ -30,7 +30,7 @@
                 = t('application.community.link')
 
             %li.nav-item
-              = link_to blog_url, class: 'nav-link', target: :_blank do
+              = link_to blog_url, class: 'nav-link', target: :_blank, rel: 'noopener noreferrer' do
                 = t('application.blog.link')
 
     = yield
