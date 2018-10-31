@@ -1,9 +1,11 @@
 .card.blog-entry
   .card-body
-    .blog-entry__author-image{ style: "background-image: url('#{blog_entry_author_image(entry)}')" }
+    %h5.card-title.blog-entry__title
+      %a{ href: entry.url, target: :_blank, rel: 'noopener noreferrer' }
+        = entry.title
 
     .blog-entry__date
       = entry.published.strftime("%d/%m/%Y")
 
-    %a.blog-entry__title{ href: entry.url, target: :_blank, rel: 'noopener noreferrer' }
-      = entry.title
+    .blog-entry__author
+      = entry.author
