@@ -1,6 +1,16 @@
 .home {
   $blog-entries-spacing: 24px;
 
+  section {
+    @include media-breakpoint-up('sm') {
+      padding: 80px 0;
+    }
+
+    @include media-breakpoint-up('lg') {
+      padding: 104px 0;
+    }
+  }
+
   .call-to-action {
     margin-top: 64px;
     text-align: center;
