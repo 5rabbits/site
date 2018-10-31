@@ -5,6 +5,7 @@ class ApplicationController < ActionController::Base
       blog_feed
     end
 
+    # TODO: Está bien hardcodear esto?? 🤨
     @tech = [
       { name: 'Javascript', weight: 2 },
       { name: 'React', weight: 2.5 },
@@ -34,7 +35,22 @@ class ApplicationController < ActionController::Base
     @member = find_by_name @team, params[:name]
   end
 
-  def community; end
+  def community
+    repos = [
+      'site',
+      'dashboard',
+      'headerstrip',
+      'portrait',
+      'react-components',
+      'create-react-lib'
+    ]
+
+    @repos = Rails.cache.fetch('github_repos', expires_in: 1.day) do
+      repos.map do |repo|
+        Github.repos.get '5rabbits', repo
+      end
+    end
+  end
 
   def blog
     redirect_to ENV['BLOG']

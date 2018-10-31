@@ -68,3 +68,4 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'bootstrap', '~> 4.1.3'
 gem 'jquery-rails', '~> 4.3.3'
 gem 'inline_svg', '~> 1.3'
+gem 'github_api', '~> 0.18.2'
