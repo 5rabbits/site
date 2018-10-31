@@ -32,18 +32,30 @@
 en:
   application:
     home:
-      link: Home
-      title: Lo bueno que somos
-      subtitle: react rails saas scrapping global-impact
-    about:
-      link: About
-      title: Lo bueno que somos viejou
+      link: Inicio
+      title: Lemontech Engineering Team
+      subtitle: ¡Lo bueno que somos viejou! 😏
+      latest_articles: Últimos artículos
+      show_more_articles: Ver más artículos
+      lemontech: Nuestras aplicaciones
+      who_we_are:
+        title: Quiénes somos
+        text: |
+          Cupidatat id duis ad laboris aute irure enim ullamco. Consequat exercitation amet labore id culpa ullamco sint tempor ullamco proident reprehenderit quis minim. Et pariatur do velit magna duis duis in nisi aliquip aliqua.
+
+          Aute ea eu occaecat in incididunt esse ipsum ex proident. Aliqua exercitation consectetur nostrud officia. Exercitation ex velit fugiat pariatur fugiat commodo in elit nulla cillum eiusmod officia.
+        cta: Conoce al equipo
     team:
-      link: Team
-      title: LBQSSS
+      link: Nosotros
+      title: El equipo
     community:
-      link: Community
-      title: OpenSource
+      link: Comunidad
+      title: Open Source
     blog:
       link: Blog
+    apps:
+      tbx: La mejor experiencia de ingreso de horas para estudios jurídicos
+      ct: Automatiza el seguimiento y gestión de tus juicios
+      ipm: Registra, vigila y monitorea tus marcas y dominios
+
 

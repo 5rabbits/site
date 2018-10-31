@@ -1,20 +1,43 @@
-%section.landing
-  %h1= @member['name']
-  %p
-    = @member['personal_quote']['quote']
-    = @member['personal_quote']['author']
-  %p= @member['description']
+%section.member-page
+  .container
+    .row
+      .col-4
+        .member-image-container
+          = render partial: 'member_image', locals: { member: @member }
 
-  %ul
-    - @member['links'].each do |link|
-      %li= link_to link['url']
-  %p
-    = @member['skills']
+        %dl.member-info
+          - if @member['skills'].present?
+            %dt Experiencia
+            %dd
+              %ul
+                - @member['skills'].each do |skill|
+                  %li= skill
 
-  All team
-  %ul
-    - @team.each do |member|
-      %li
-        - name = member['name']
-        = link_to name, member_path(name: name)
+          - if @member['links'].present?
+            %dt Encuentra a #{@member['name'].split(' ').first} en
+            %dd
+              %ul
+                - @member['links'].each do |link|
+                  %li
+                    %a.member-social-link{ href: link['url'], target: if link['type'] == 'email' then nil else :_blank end, rel: 'noopener noreferrer' }
+                      = inline_svg "services/#{link['type']}.svg"
+                      %span= link['username']
 
+      .col-8
+        .member-title
+          %h1= @member['name']
+
+          - if @member['short_name']
+            %h2= @member['short_name']
+
+        - if @member['personal_quote'].present?
+          %blockquote.blockquote.member-quote
+            = simple_format @member['personal_quote']['quote'], class: 'mb-0'
+
+            - if @member['personal_quote']['author'].present?
+              %footer.blockquote-footer
+                = @member['personal_quote']['author']
+
+        = simple_format @member['description'], class: 'member-description'
+
+    = render partial: 'team_grid', locals: { team: @team }

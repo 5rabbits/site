@@ -1,6 +1,9 @@
-%section.blog
-  - @blog_entries.each do |entry|
-    = entry.title
-    = entry.author
-    %br
-    %br
+.recent-articles
+  = render locals: { entry: @blog_entries[0] }, partial: 'blog_entry'
+
+.all-articles
+  - @blog_entries[1..-1].each_slice(3) do |entries|
+    .row
+      - entries.each do |entry|
+        .col-lg
+          = render locals: { entry: entry }, partial: 'blog_entry'

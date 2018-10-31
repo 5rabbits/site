@@ -7,17 +7,31 @@
     = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload'
     = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
   %body
-    %header
-    %nav
-      = link_to '/' do
-        = t('application.home.link')
-      = link_to about_url do
-        = t('application.about.link')
-      = link_to team_url do
-        = t('application.team.link')
-      = link_to community_url do
-        = t('application.community.link')
-      = link_to blog_url do
-        = t('application.blog.link')
+    %nav.navbar.navbar-expand-lg.navbar-light.fixed-top.app-navbar
+      .container
+        %a.navbar-brand.app-logo{ href: '/' }
+          let;
+
+        %button.navbar-toggler{"aria-controls" => "navbarSupportedContent", "aria-expanded" => "false", "aria-label" => "Toggle navigation", "data-target" => "#navbarSupportedContent", "data-toggle" => "collapse", :type => "button"}
+          %span.navbar-toggler-icon
+
+        #navbarSupportedContent.collapse.navbar-collapse
+          %ul.navbar-nav.ml-auto
+            %li{ class: nav_item_class('home') }
+              = link_to '/', class: 'nav-link' do
+                = t('application.home.link')
+
+            %li{ class: nav_item_class('team', 'member') }
+              = link_to team_url, class: 'nav-link' do
+                = t('application.team.link')
+
+            %li{ class: nav_item_class('community') }
+              = link_to community_url, class: 'nav-link' do
+                = t('application.community.link')
+
+            %li.nav-item
+              = link_to blog_url, class: 'nav-link', target: :_blank, rel: 'noopener noreferrer' do
+                = t('application.blog.link')
+
     = yield
-    %footer
+    %footer.app-footer

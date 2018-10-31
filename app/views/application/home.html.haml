@@ -1,4 +1,54 @@
-%section.landing
-  %h1=t('.title')
-  %h2=t('.subtitle')
-= render 'blog'
+.home
+  .home-image
+    .home-text
+      .container
+        .home-title= t('.title')
+        .home-subtitle= t('.subtitle')
+
+  %section.who-we-are
+    .container
+      %h2= t('.who_we_are.title')
+      = simple_format t('.who_we_are.text')
+
+      .cloud
+        .cloud-contents
+          - @tech.each do |tech|
+            %span{ style: "font-size:#{tech[:weight]}em;" }= tech[:name]
+
+      .call-to-action
+        = link_to team_url, class: 'btn btn-outline-primary btn-lg' do
+          = t('.who_we_are.cta')
+
+  %section.our-apps
+    .container
+      %h2= t('.lemontech')
+
+      .row
+        .col-lg
+          .tbx
+            = image_tag 'tbx.png'
+            %p= t('application.apps.tbx')
+
+        .col-lg
+          .ct
+            = image_tag 'ct.png'
+            %p= t('application.apps.ct')
+
+        .col-lg
+          .ipm
+            = image_tag 'ipm.png'
+            %p= t('application.apps.ipm')
+
+      .call-to-action
+        = link_to 'https://www.lemontech.com', class: 'btn btn-outline-primary btn-lg', target: :_blank, rel: 'noopener noreferrer' do
+          Ver más información
+
+  %section.blog-entries
+    .container
+      %h2= t('.latest_articles')
+
+      = render 'blog'
+
+      .call-to-action
+        = link_to blog_url, class: 'btn btn-outline-primary btn-lg', target: :_blank, rel: 'noopener noreferrer' do
+          = t('.show_more_articles')

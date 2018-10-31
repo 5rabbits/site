@@ -1,0 +1,217 @@
+.home {
+  $blog-entries-spacing: 24px;
+
+  section {
+    @include media-breakpoint-up('sm') {
+      padding: 80px 0;
+    }
+
+    @include media-breakpoint-up('lg') {
+      padding: 104px 0;
+    }
+  }
+
+  .call-to-action {
+    margin-top: 64px;
+    text-align: center;
+  }
+
+  .home-image {
+    background-image: url('http://webticocr.com/wp-content/uploads/2018/05/Abstract-3d-Art-4k-1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
+    width: 100%;
+    height: 320px;
+  }
+
+  .home-text {
+    color: #FFF;
+    text-align: center;
+    height: 100%;
+    background-color: rgba(#000, 0.25);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-shadow: rgba(#000, 0.75) 0 -2px 8px;
+  }
+
+  .home-title {
+    font-size: 1.75em;
+    font-family: $font-family-let;
+    line-height: 1em;
+    margin-bottom: 4px;
+  }
+
+  .home-subtitle {
+    font-size: 1.25em;
+  }
+
+  @include media-breakpoint-up('sm') {
+    .home-image {
+      height: 480px;
+    }
+
+    .home-title {
+      font-size: 2.25em;
+    }
+
+    .home-subtitle {
+      font-size: 1.5em;
+    }
+  }
+
+  @include media-breakpoint-up('md') {
+    .home-image {
+      height: 560px;
+    }
+
+    .home-title {
+      font-size: 2.75em;
+    }
+
+    .home-subtitle {
+      font-size: 1.75em;
+    }
+  }
+
+  @include media-breakpoint-up('lg') {
+    .home-image {
+      height: 640px;
+    }
+
+    .home-title {
+      font-size: 3.5em;
+    }
+
+    .home-subtitle {
+      font-size: 2em;
+    }
+  }
+
+  .blog-entry {
+    height: 100%;
+    position: relative;
+    font-size: 0.9em;
+
+    .card-body {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  }
+
+  .blog-entry__title {
+    margin-bottom: 0.75em;
+    font-size: 1.25em;
+  }
+
+  .blog-entry__date {
+    color: $text-muted;
+    margin-top: auto;
+  }
+
+  .blog-entry + .blog-entry {
+    margin-top: $blog-entries-spacing;
+  }
+
+  .recent-articles {
+    @include media-breakpoint-up('lg') {
+      .blog-entry {
+        font-size: 1.5em;
+      }
+    }
+  }
+
+  .all-articles {
+    margin-top: $blog-entries-spacing;
+
+    .row + .row {
+      margin-top: $blog-entries-spacing;
+    }
+
+    @include media-breakpoint-down('md') {
+      .col-lg + .col-lg {
+        margin-top: $blog-entries-spacing;
+      }
+    }
+  }
+
+  .our-apps {
+    display: flex;
+
+    .tbx,
+    .ct,
+    .ipm {
+      text-align: center;
+      height: 100%;
+      color: #fff;
+      padding: 40px;
+      border-radius: 8px;
+      box-shadow: 0 7px 24px 1px rgba(0,0,0,.2), 0 20px 30px 5px rgba(0,0,0,.1);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      img {
+        max-width: 216px;
+        width: 100%;
+        flex-shrink: 0;
+        margin-bottom: 8px;
+      }
+
+      p {
+        margin-top: auto;
+        margin-bottom: 0;
+        text-shadow: rgba(#000, 0.1) 0 -1px 1px;
+      }
+    }
+
+    .tbx {
+      background-color: #0667F9;
+    }
+
+    .ct {
+      background-color: #FF6102;
+    }
+
+    .ipm {
+      background-color: #FFCB02;
+    }
+
+    @include media-breakpoint-down('md') {
+      .col-lg + .col-lg {
+        margin-top: 24px;
+      }
+    }
+  }
+
+  .who-we-are {
+    .cloud {
+      background-color: mix(#3498db, #fff, 5%);
+      color: #3498db;
+      border-radius: 8px;
+      padding: 24px;
+      margin-top: 40px;
+      font-size: 0.75em;
+
+      @include media-breakpoint-up('sm') {
+        font-size: 1em;
+        padding: 40px;
+      }
+    }
+
+    .cloud-contents {
+      max-width: 640px;
+      margin: 0 auto;
+      text-align: center;
+
+      span {
+        display: inline-block;
+        margin: 4px 1em;
+      }
+    }
+  }
+}

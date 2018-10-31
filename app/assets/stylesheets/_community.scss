@@ -1,0 +1,50 @@
+.community-page {
+  .repos-list {
+    > .row + .row {
+      margin-top: 24px;
+    }
+
+    @include media-breakpoint-down('md') {
+      > .row > .col-lg + .col-lg,
+      > .row + .row {
+        margin-top: 16px;
+      }
+    }
+  }
+
+  .github-repo {
+    height: 100%;
+
+    .card-body {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+
+  .github-repo-info {
+    margin-top: auto;
+    border-top: $card-border-color solid 1px;
+    margin-right: -$card-spacer-x;
+    margin-left: -$card-spacer-x;
+    margin-bottom: -$card-spacer-x;
+
+    > div {
+      padding: $card-spacer-y $card-spacer-x;
+    }
+
+    > div + div {
+      border-left: $card-border-color solid 1px;
+    }
+  }
+
+  .github-info-value {
+
+  }
+
+  .github-info-label {
+    color: $text-muted;
+    text-transform: uppercase;
+    font-size: 0.7em;
+    font-weight: 500;
+  }
+}

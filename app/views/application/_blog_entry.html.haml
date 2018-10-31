@@ -1,0 +1,11 @@
+.card.blog-entry
+  .card-body
+    %h5.card-title.blog-entry__title
+      %a{ href: entry.url, target: :_blank, rel: 'noopener noreferrer' }
+        = entry.title
+
+    .blog-entry__date
+      = entry.published.strftime("%d/%m/%Y")
+
+    .blog-entry__author
+      = entry.author

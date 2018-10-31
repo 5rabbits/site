@@ -1,2 +1,29 @@
-%section.community
-  %h1=t('.title')
+.community-page
+  %section
+    .container
+      %h1=t('.title')
+
+      .repos-list
+        - @repos.each_slice(2) do |repos|
+          .row
+            - repos.each do |repo|
+              .col-lg
+                .card.github-repo
+                  .card-body
+                    %h5.card-title
+                      %a.github-repo-name{ href: repo.html_url, target: :_blank, rel: 'noopener noreferrer' }= repo.name
+
+                    = simple_format repo.description, class: 'card-text github-repo-description'
+
+                    .row.github-repo-info
+                      .col-auto
+                        .github-info-value= repo.language
+                        .github-info-label Lang
+
+                      .col-auto
+                        .github-info-value= repo.stargazers_count
+                        .github-info-label Stars
+
+                      .col-auto
+                        .github-info-value= repo.watchers_count
+                        .github-info-label Watchers

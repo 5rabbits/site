@@ -1,0 +1,92 @@
+.member-page {
+  .member-title {
+    margin-bottom: 48px;
+
+    h1,
+    h2 {
+      margin: 0;
+    }
+
+    h2 {
+      font-family: $font-family-sans-serif;
+      color: $text-muted;
+      font-weight: 300;
+      margin-top: 8px;
+      font-size: 1.75rem;
+    }
+  }
+
+  .member-quote {
+    position: relative;
+    padding: 48px 0;
+    margin-bottom: 48px;
+
+    &::before,
+    &::after {
+      content: '';
+      height: 1px;
+      position: absolute;
+      right: 0;
+      left: 0;
+      background-image: linear-gradient(to right, transparent, #ddd, transparent);
+    }
+
+    &::before {
+      top: 0;
+    }
+
+    &::after {
+      bottom: 0;
+    }
+  }
+
+  .member-description {
+    font-size: 1.25em;
+    margin-bottom: 1.4em;
+  }
+
+  .member-image-container {
+    margin: 0 auto 64px auto;
+    max-width: 240px;
+  }
+
+  .member-info {
+    dt {
+      font-weight: 500;
+      font-size: 1.2em;
+      margin-bottom: 8px;
+    }
+
+    dd {
+      color: $text-muted;
+    }
+
+    ul {
+      list-style: none;
+      padding-left: 16px;
+      margin: 0;
+    }
+
+    li + li {
+      margin-top: 8px;
+    }
+
+    dd + dt {
+      margin-top: 40px;
+    }
+  }
+
+  .member-social-link {
+    color: $text-muted;
+
+    svg {
+      width: 24px;
+      margin-right: 4px;
+      fill: $text-muted;
+    }
+  }
+
+  .team-list {
+    margin-top: 80px;
+  }
+}
