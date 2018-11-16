@@ -30,17 +30,9 @@
     right: 0;
     bottom: 0;
     left: 0;
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    flex-wrap: wrap;
-
-    img {
-      flex: 1;
-      width: 12.5%;
-      height: auto;
-      display: block;
-    }
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
   }
 
   .home-text {
