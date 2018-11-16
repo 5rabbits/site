@@ -41,4 +41,29 @@
                 = t('application.blog.link')
 
     = yield
+
     %footer.app-footer
+      .container
+        .app-footer-row
+          = link_to 'https://www.lemontech.com', target: :_blank, rel: 'noopener noreferrer'  do
+            = image_tag 'lemontech.png', class: 'lemontech-logo'
+
+          %ul
+            %li
+              = link_to '/', class: 'nav-link' do
+                = t('application.home.link')
+
+            %li
+              = link_to team_url, class: 'nav-link' do
+                = t('application.team.link')
+
+            %li
+              = link_to community_url, class: 'nav-link' do
+                = t('application.community.link')
+
+            %li
+              = link_to blog_url, class: 'nav-link', target: :_blank, rel: 'noopener noreferrer' do
+                = t('application.blog.link')
+
+        .app-copyright
+          © 2018  Todos los derechos reservados

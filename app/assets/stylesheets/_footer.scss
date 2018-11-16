@@ -1,4 +1,37 @@
 .app-footer {
-  background-color: #002A32;
-  height: 400px;
+  background-color: #002a32;
+  padding: 40px;
+
+  .app-footer-row {
+    display: flex;
+    align-items: center;
+
+    ul {
+      margin-left: auto;
+      margin-bottom: 0;
+      padding: 0;
+      display: flex;
+    }
+
+    a {
+      color: rgba(#fff, 0.5);
+
+      &:hover {
+        color: rgba(#fff, 0.85);
+      }
+    }
+  }
+
+  .app-copyright {
+    color: rgba(#fff, 0.35);
+    border-top: rgba(#fff, 0.15) solid 1px;
+    text-align: center;
+    margin-top: 40px;
+    padding-top: 24px;
+    font-size: 0.85em;
+  }
+
+  .lemontech-logo {
+    max-width: 190px;
+  }
 }
