@@ -1,6 +1,57 @@
+- name: Claudio Briones
+  description: |
+    Le pagan por liderar a uno de los equipos mas vintage de Lemontech.
+
+    Su habilidad mas preciada es modificar código de software legacy y que este no explote.
+
+    "Urgencia" y "Es para ayer" es su mejor compañía.
+
+    No le teme a los problemas de facturación y disfruta destruyendo Pull Request (algunos dicen que: "La tristeza de otros", alimentan su alma).
+  short_name: brionescl
+  avatar_url: profiles/cbriones.png
+  skills:
+    - Aprendiz de React
+    - JavaScript
+    - CSS
+    - PHP
+    - PHP Vintage
+  links:
+    - type: web
+      url: http://briones.cl
+      username: briones.cl
+  personal_quote:
+    quote: "it's fine... 🔥"
+    author: Claudio Briones
+
+- name: Nicolás Torres
+  description: |
+    Ingeniero en Computación, reprobé Introducción a la Programación mi primer semestre, así que soy una prueba fiable de `Nada es imposible weon' ni una wea'` (https://www.youtube.com/watch?v=MH78sapVA4Q).
+
+    Durante mi formación conocí los robots y la domótica (algún día tendré mi propia casa inteligente home-made que me servirá vino cuando esté por llegar).
+
+    Me gusta programar, pero prefiero más pensar en crear buenas soluciones y hacer las cosas bien a la primera. Por lo mismo hice un Diplomado en Gestión y Evaluación de Proyectos TI.
+
+    Últimamente me he enfocado en apoyar integraciones desde y hacia TB, es más tengo reunión en unos minutos más.
+  short_name: ntorresj
+  avatar_url: profiles/ntorres.png
+  skills:
+    - PHP (old school y FW)
+    - Aprendí que una buena solución no tiene lenguaje
+    - ¿jQuery aún cuenta?
+    - Aportar con buenas soluciones
+  links:
+    - type: github
+      url: https://github.com/ntorresj
+      username: ntorresj
+  personal_quote:
+    quote: "Sin embargo"
+    author: Nicolás Torres
+
 - name: Gabriel Wurman
   description: |
-    Ingeniero TI de la PUC, actualmente desarrollador de software. Apasioinado por la Ingeniería de Software.
+    Ingeniero TI de la PUC, actualmente desarrollador de software.
+
+    Apasionado por la Ingeniería de Software.
   short_name: gwurman
   avatar_url: profiles/gwurman.png
   skills:
@@ -16,7 +67,7 @@
       username: gwurman
   personal_quote:
     quote: "La vida es una fiesta y yo soy la piñata."
-    author:
+    author: Gabriel Wurman
 
 - name: Sebastián González
   description: |
@@ -38,15 +89,18 @@
     - type: github
       url: https://github.com/brutalchrist
       username: brutalchrist
-    - type: medium
-      url: https://medium.com/@brutalchrist
-      username: "@brutalchrist"
   personal_quote:
+    quote: "La hiciste llorar y yo lloré y Maggie rió y todo fue una confusión."
+    author: "Homero J. Simpson"
 
 - name: Gerald Lara
   description: |
-    Ingeniero entusiasta de lo simple, le apasiona desarrollar soluciones amigables a las personas para hacer su vida más sencilla y eficiente. Es un convencido de que todo se puede aprender y mejorar, por ello divide su tiempo desarrollando software, haciendo música, leyendo libros, generando ideas y compartiendo todo esto con los demás.
+    Ingeniero entusiasta de lo simple, le apasiona desarrollar soluciones amigables a las personas para hacer su vida más sencilla y eficiente.
+
+    Es un convencido de que todo se puede aprender y mejorar, por ello divide su tiempo desarrollando software, haciendo música, leyendo libros, generando ideas y compartiendo todo esto con los demás.
+
     Oriundo de la ciudad del Trueno y Ranguerino por herencia y tradición.
+
   short_name: glara
   avatar_url: profiles/glara.png
   skills:
@@ -54,24 +108,32 @@
     - PHP
     - Javascript
     - React
+    - FIFA
   links:
     - type: github
       url: https://github.com/glara
       username: glara
   personal_quote:
-    quote: |
-      A path is only a path, and there is no affront, to oneself or to others, in dropping it if that is what your heart tells you... Look at every path closely and deliberately. Try it as many times as you think necessary. Then ask yourself alone, one question... Does this path have a heart? If it does, the path is good; if it doesn't it is of no use.
-    author: Carlos Castaneda
+    quote: "A path is only a path, and there is no affront, to oneself or to others, in dropping it if that is what your heart tells you... Look at every path closely and deliberately. Try it as many times as you think necessary. Then ask yourself alone, one question... Does this path have a heart? If it does, the path is good; if it doesn't it is of no use."
+    author: "Carlos Castaneda"
 
 - name: Víctor Sánchez
-  description:
+  description: |
+    Ingeniero en computación, se supone que Full-Stack, me gusta implementar soluciones que agreguen valor al software y a nuestros clientes.
+
+    Actualmente formo parte del equipo de TBX.
+
+    Campeón vigente del único torneo de FIFA.
+
+    También cumplo el rol de FIFA Technical Leader.
   short_name: vitoco
   avatar_url: profiles/vsanchez.png
   skills:
     - Ruby
     - Javascript
-    - RoR
+    - ROR
     - React
+    - FIFA
   links:
     - type: github
       url: https://github.com/Vsanchezr
@@ -80,6 +142,51 @@
       url: https://www.linkedin.com/in/vlsanchezr/
       username: vlsanchezr
   personal_quote:
+    quote: "No hay que justificar ni satanizar. Hay que tomar conciencia de implementar un cambio. Hay que tener autocrítica para mejorar."
+    author:
+
+- name: Claudio Peralta
+  description:
+  short_name: cuayocps
+  avatar_url: profiles/cperalta.png
+  skills:
+  links:
+  personal_quote:
+
+- name: Andrés Arellano
+  description: |
+    Actualmente CTO de Lemontech.
+
+    Es Ingeniero TI de la PUC en Chile, y Magíster en Ingeniería de Sistemas de la University of Maryland en Estados Unidos.
+
+    Su trayectoria ha estado principalmente marcada por proyectos de innovación digital, fomento al emprendimiento en la industria del software y modernización del sector público a través del gobierno digital.
+
+    Ha sido docente de la Universidad de Chile e investigador en el Centro de Estudios de Tecnologías de la Información de la PUC.
+
+    Apasionado por construir valor para las personas utilizando las tecnologías de la información.
+
+    Ciclista urbano, padre de tres niñas y fanático de las montañas.
+  short_name:
+  avatar_url: profiles/aarellano.png
+  skills:
+    - Liderazgo de equipos
+    - Definición de estrategia
+    - Desarrollo de productos
+    - Arquitectura de software
+  links:
+    - type: github
+      url: https://github.com/aarellano
+      username: aarellano
+    - type: linkedin
+      url: https://www.linkedin.com/in/aarellanor/
+      username: aarellanor
+    - type: twitter
+      url: https://twitter.com/aarellanor
+      username: "aarellanor"
+
+  personal_quote:
+    quote: "There are only two ways to live your life: as though nothing is a miracle, or as though everything is a miracle"
+    author: "A. Einstein"
 
 - name: Abraham Barrera
   description: |
@@ -88,6 +195,7 @@
     Gracias a su curiosidad y la convicción de querer hacer las cosas bien, siempre ha tenido que liderar equipos donde ha trabajado, sin embargo, lo que le apasiona realmente es la programación y la ciencia, esperando algún día poder hackear la matrix y liberarlos a todos.
 
     Santiaguino y músico de corazón, no soporta el exceso de gente pero tampoco la paz absoluta durante tiempo prolongado, pasa su tiempo libre con su familia y tocando buena música.
+
   short_name: el capi
   avatar_url: profiles/abarrera.png
   skills:
@@ -106,82 +214,252 @@
       username: abrahambarrera
     - type: twitter
       url: https://twitter.com/abraham_barrera
-      username: "@abraham_barrera"
+      username: "abraham_barrera"
+
   personal_quote:
-    quote: |
-      Any fool can write code that a computer can understand. Good programmers write code that humans can understand.
-    author: Martin Fowler
-
-- name: Andrés Arellano
-  description: |
-    Actualmente CTO de Lemontech. Es Ingeniero TI de la PUC en Chile, y Magíster en Ingeniería de Sistemas de la University of Maryland en Estados Unidos.
-
-    Su trayectoria ha estado principalmente marcada por proyectos de innovación digital, fomento al emprendimiento en la industria del software y modernización del sector público a través del gobierno digital.
-
-    Ha sido docente de la Universidad de Chile e investigador en el Centro de Estudios de Tecnologías de la Información de la PUC.
-
-    Apasionado por construir valor para las personas utilizando las tecnologías de la información.
-
-    Ciclista urbano, padre de tres niñas y fanático de las montañas.
-  short_name:
-  avatar_url: profiles/aarellano.png
-  skills:
-    - Liderazgo de equipos
-    - Definición de estrategia
-    - Desarrollo de productos,
-    - Arquitectura de software
-  links:
-    - type: email
-      url: 'mailto:aarellano@lemontech.com'
-      username: aarellano@lemontech.com
-    - type: github
-      url: https://github.com/aarellano
-      username: aarellano
-    - type: linkedin
-      url: https://www.linkedin.com/in/aarellanor
-      username: aarellanor
-    - type: twitter
-      url: https://twitter.com/aarellanor
-      username: "@aarellanor"
-  personal_quote:
-    quote: "There are only two ways to live your life: as though nothing is a miracle, or as though everything is a miracle"
-    author: A. Einstein
-
-- name: Claudio Briones
-  avatar_url: profiles/cbriones.png
-
-- name: Nicolás Torres
-  avatar_url: profiles/ntorres.png
-
-- name: Claudio Peralta
-  avatar_url: profiles/cperalta.png
+    quote: "Any fool can write code that a computer can understand. Good programmers write code that humans can understand."
+    author: "Martin Fowler"
 
 - name: Daniel Ochoa
+  description: |
+    Daniel despertó su pasión por el código a los 10 años, cuando muy enojado porque no le compraban juegos de video, decidió desarrollarlos el mismo. Santiaguino con sangre sureña y colocolino de corazón, es ingeniero y magíster en ingeniería informática de la Universidad de Santiago. A los 21 años fue becado por Google y se fue a Nueva York.
+
+    Cuenta con 8 años de experiencia formales en los que se ha enfocado en hacer crecer productos desde el diseño y desarrollo de software, refactorizaciones, estrategia y liderazgo. Ama la tecnología y no pierde oportunidad de enseñarla a otros participando activamente en workshops, charlas y meetups.
+
+    Cuando no está programando, probablemente esté jugando juegos de mesa, algun buen JRPG o FIFA.
+  short_name: dochoaj
   avatar_url: profiles/dochoa.png
+  skills:
+    - Ruby
+    - Javascript
+    - Java
+    - Arquitectura y diseño de software
+    - Liderazgo técnico
+    - Speaker
+  links:
+    - type: github
+      url: https://github.com/dochoaj
+      username: dochoaj
+    - type: linkedin
+      url: https://www.linkedin.com/in/juanochoajohn/
+      username: juanochoajohn
+    - type: twitter
+      url: https://twitter.com/dochoaj
+      username: "dochoaj"
+
+  personal_quote:
+    quote: "El trabajo duro nunca te traiciona"
+    author:
 
 - name: Andrés Lazo
+  description: |
+    Ingeniero de DUOC UC recientemente egresado.
+
+    Posee pasión por el desarrollo web y por la búsqueda de la satisfacción de cada cliente y miembro del equipo.
+  short_name: balazo
   avatar_url: profiles/alazo.png
+  skills:
+    - Ingresando a Rails y React
+  links:
+    - type: github
+      url: https://github.com/andreslazo
+      username: andreslazo
+    - type: linkedin
+      url: https://www.linkedin.com/in/amlazo/
+      username: amlazo
+
+  personal_quote:
+    quote: "Seguramente lo vamos a lograr"
+    author:
 
 - name: Rodrigo Díaz
+  description: |
+    Ingeniero orientado principalmente al diseño e implementación de aplicaciones web, siempre preocupado de lograr un buen balance entre estilo y experiencia de usuario.
+
+    La programación es su pasión y constantemente está en busca de desafíos técnicos y profesionales. Le motiva aprender nuevas tecnologías, contribuir a la comunidad open source y desarrollar aplicaciones que entreguen valor a sus usuarios.
+
+    Si no está programando está dedicándole tiempo a su perrito Devin 🐶, tocando bajo con su banda o jugando juegos de mesa con amigos.
+  short_name: RD
   avatar_url: profiles/rdiaz.png
+  skills:
+    - React
+    - React Native
+    - Electron
+    - CSS
+    - Ruby
+    - NodeJS
+    - Go
+  links:
+    - type: github
+      url: https://github.com/rdiazv
+      username: rdiazv
+    - type: linkedin
+      url: https://www.linkedin.com/in/rdiazv/
+      username: rdiazv
+    - type: medium
+      url: "https://medium.com/@rdiazv"
+      username: "rdiazv"
+
+  personal_quote:
+    quote: "Trabajo remoto 🏡 😁"
+    author:
 
 - name: Javier López
+  description: |
+    Ingeniero Civil en Computación de la PUC.
+
+    Antes de titularse lo invitaron a conocer Lemontech y 10 años después todavía no sabe cómo escapar.
+
+    Habla fluidamente español, inglés, italiano y expresiones regulares.
+  short_name: ameboide
   avatar_url: profiles/jlopez.png
+  skills:
+    - Ruby
+    - C#
+    - PHP
+    - Javascript
+    - Java
+    - Y sus respectivos frameworks típicos
+  links:
+    - type: github
+      url: https://github.com/ameboide
+      username: ameboide
+  personal_quote:
+    quote: "I'm So Meta, Even This Acronym"
+    author: "xkcd citando a Douglas Hofstadter"
 
 - name: Alfonso Guzmán
+  description: |
+    Entry Software Engineer en Lemontech e Ingeniero Civil Informático de la USACh. En su corta trayectoría se ha desempeñado como desarrollado Full-Stack. Fue profesor de cátedra y laboratorio en la Universidad de Santiago de Chile. Motivado por el constante aprendizaje, el trabajo colaborativo y la construcción de productos de software que mejoren la calidad de vida de las personas.
+
+    Nunca limitado por su formación, le apasiona la lectura que lo ayude a comprender nuestra historia y la sociedad.
+
+    Los animales son sus amigos, no su comida
+  short_name: Alfito
   avatar_url: profiles/aguzman.png
+  skills:
+    - Ruby
+    - Java
+    - RoR
+    - JavaScript
+  links:
+    - type: medium
+      url: https://medium.com/@alfit0
+      username: "alfit0"
+    - type: linkedin
+      url: https://www.linkedin.com/in/aguzmanalv/
+      username: aguzmanalv
+
+  personal_quote:
+    quote: "El éxito es deformante, relaja, engaña, nos vuelve peor, nos ayuda a enamorarnos excesivamente de nosotros mismos; el fracaso es todo lo contrario, es formativo, nos vuelve sólidos, nos acerca a las convicciones, nos vuelve coherentes."
+    author: "Marcelo Bielsa"
 
 - name: Javier Segovia
+  description:
+  short_name:
   avatar_url: profiles/jsegovia.png
+  skills:
+  links:
+  personal_quote:
 
 - name: Vladimir Zurita
+  description: |
+    Analista Programador del DUOC, sus pasiones son programar, la música y la electrónica.
+
+    Usuario incondicional de Liinux con Gnome.
+
+    Le gusta probar nuevas tecnologías y aprender constantemente, especialmente de la experiencia de sus compañeros.
+
+    Un pionero en el trabajo full remoto en Lemontech trasladó su vida completa a Villarrica, esto ha servido para demostrar que sí se puede.
+  short_name: vladzur
   avatar_url: profiles/vzurita.png
+  skills:
+    - PHP
+    - Laravel
+    - VueJS
+    - Ionic
+    - Aprendiz de NodeJS y React
+  links:
+    - type: twitter
+      url: https://twitter.com/vladzur
+      username: vladzur
+    - type: linkedin
+      url: https://www.linkedin.com/in/vladimir-zurita-manquian
+      username: vladimir-zurita-manquian
+
+  personal_quote:
+    quote: "Que estay mirando..."
+    author:
 
 - name: Paula Madariaga
+  description: |
+    Ingeniero Comercial, USACH. Diplomado en Gestión de la Innovación, Universidad de Chile. Certificación CSPO (Kleer)
+  short_name: pvmadar
   avatar_url: profiles/pmadariaga.png
+  skills:
+    - Metodología ágil
+    - Scrum
+    - Diseño y desarrollo de productos
+    - Innovación
+    - E-commerce
+    - Gestión proyectos
+  links:
+  personal_quote:
 
 - name: Giannina Giannecchini
+  description: |
+    Desarrolladora full-stack, especializada en tecnologías Microsoft hasta que Javascript llegó a su corazón conquistando el lado Front.
+
+    Entusiasta por la innovación le encanta desarrollar soluciones para poder facilitar y acelerar los procesos de trabajo.
+  short_name: nina
   avatar_url: profiles/ggiannecchini.png
+  skills:
+    - C#
+    - Javascript
+    - React
+    - React-Native
+    - Arquitectura
+    - Speaker
+    - Eterna aprendiz
+  links:
+    - type: linkedin
+      url: https://www.linkedin.com/in/giannina-giannecchini-aravena-45825011b/
+      username: giannina-giannecchini-aravena
+  personal_quote:
 
 - name: Ángelo Calvo
+  description: |
+    Desarrollador full-stack autodidacta y amante de la tecnologia desde que tengo uso de razon. Comence a temprana edad con un Atari y Basic, destruyendo mis computadoras y posteriormente reparandolas, lo que poco a poco fue acercandome a este apasionante mundo. Mi lenguaje escuela fue PHP y posteriormente fui migrando a otras tecnologias y posibilidades que no solo se limitaban al software, sino que también a la infraestructura, la robótica y automatización.
+
+    A nivel académico, en algún momento de mi vida, “me obligaron y me obligue” a cursar Ingeniería Civil Informática, y actualmente me desempeño como profesor de la Escuela de Ingeniería Civil Informática de la USS.
+
+    Soy ES lover, en todas sus dimensiones, alucino con la arquitectura de software y me apasiona la construcción de soluciones tecnológicas innovadoras, así como el emprendimiento digital.
+
+    Soy amante del motociclismo de velocidad, la mecánica y todo lo que haga rum y suene bonito. Me encata leer para aprender cosas nuevas  y me obsesiona todo lo realcionado al Bio-hacking. También juego a ser Chef de vez en cuando, fabricar cerveza y disfrutar de una vida tranquila.
+  short_name: dorian
   avatar_url: profiles/acalvo.png
+  skills:
+    - Desarrollo de software
+    - ES
+    - Angular
+    - React
+    - Nativescript
+    - JAVA
+    - C++
+    - ROR
+    - PHP
+    - Geodesarrollo
+    - Arquitectura de Software
+    - Profesor
+    - Piloto de velocidad
+  links:
+    - type: github
+      url: https://www.github.com/acalvoa
+      username: acalvoa
+    - type: linkedin
+      url: https://www.linkedin.com/in/angelo-alejandro-calvo-alfaro/
+      username: angelo-alejandro-calvo-alfaro
+
+  personal_quote:
+    quote: "Dormir... Es parte esencial del proceso creativo"
+    author: "Diciéndolo despues de haberse quedado dormido sobre el teclado"
