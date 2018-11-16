@@ -1,7 +1,12 @@
 !!!
 %html
   %head
-    %title Site
+    %title
+      - if content_for?(:title)
+        = "#{yield(:title)} - Lemontech Engineering Team"
+      - else
+        = 'Lemontech Engineering Team'
+
     = csrf_meta_tags
     = csp_meta_tag
     = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload'
