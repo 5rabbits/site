@@ -11,11 +11,13 @@
     = csp_meta_tag
     = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload'
     = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
+    = favicon_link_tag asset_path('isotype.png')
   %body
     %nav.navbar.navbar-expand-lg.navbar-light.fixed-top.app-navbar
       .container
         %a.navbar-brand.app-logo{ href: '/' }
-          let;
+          %span let
+          = image_tag 'isotype.png'
 
         %button.navbar-toggler{"aria-controls" => "navbarSupportedContent", "aria-expanded" => "false", "aria-label" => "Toggle navigation", "data-target" => "#navbarSupportedContent", "data-toggle" => "collapse", :type => "button"}
           %span.navbar-toggler-icon
