@@ -1,9 +1,14 @@
 .home
   .home-image
+    .home-mosaic
+      - @team.each do |member|
+        = image_tag asset_url(member['avatar_url'])
+
     .home-text
       .container
         .home-title= t('.title')
         .home-subtitle= t('.subtitle')
+
 
   %section.who-we-are
     .container

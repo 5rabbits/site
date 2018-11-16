@@ -24,6 +24,15 @@ class ApplicationController < ActionController::Base
       { name: 'Laravel', weight: 1 },
       { name: 'VueJS', weight: 1 },
     ].shuffle
+
+    min_size = 60
+
+    @team = load_setting('team')
+    team_size = @team.size
+
+    (min_size - team_size).times do |i|
+      @team << @team[i % team_size]
+    end
   end
 
   def team
