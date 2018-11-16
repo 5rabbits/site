@@ -34,16 +34,16 @@ en:
     home:
       link: Inicio
       title: Lemontech Engineering Team
-      subtitle: ¡Lo bueno que somos viejou! 😏
+      subtitle: Crafting products with joy
       latest_articles: Últimos artículos
       show_more_articles: Ver más artículos
       lemontech: Nuestras aplicaciones
       who_we_are:
         title: Quiénes somos
         text: |
-          Cupidatat id duis ad laboris aute irure enim ullamco. Consequat exercitation amet labore id culpa ullamco sint tempor ullamco proident reprehenderit quis minim. Et pariatur do velit magna duis duis in nisi aliquip aliqua.
+          Somos un equipo de ingenier@s apasionados por el desarrollo de software, que construimos <i>software as a service</i> para resolver las necesidades que tienen a diario nuestros miles de usuarios. Nos gusta hacer las cosas bien, ser rápidos en entregar nuestros productos, y pasarlo bien mientras lo hacemos. Queremos ser mucho mejores, por lo que siempre estamos pensando cómo innovar y hacer mejor nuestro trabajo o utilizando nuevas tecnologías.
 
-          Aute ea eu occaecat in incididunt esse ipsum ex proident. Aliqua exercitation consectetur nostrud officia. Exercitation ex velit fugiat pariatur fugiat commodo in elit nulla cillum eiusmod officia.
+          Gracias a las herramientas de colaboración en línea, eliminamos las distancias geográficas como un impedimento para trabajar juntos. Si bien nuestros HQ están en Santiago de Chile, los integrantes de nuestro equipo están en varios lugares de Chile u otros países.
         cta: Conoce al equipo
     team:
       link: Nosotros
