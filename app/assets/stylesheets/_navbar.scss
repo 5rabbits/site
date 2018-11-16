@@ -6,6 +6,12 @@ body {
   font-family: $font-family-let;
   font-size: 32px;
   line-height: 1em;
+  display: inline-flex;
+  align-items: center;
+
+  img {
+    height: 40px;
+  }
 }
 
 .app-navbar {
