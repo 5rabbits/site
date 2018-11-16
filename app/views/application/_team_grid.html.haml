@@ -1,7 +1,8 @@
 %ul.team-list
   - team.each do |member|
     %li.member
-      = render partial: 'member_image', locals: { member: member }
+      = link_to member_path(name: member['name']) do
+        = render partial: 'member_image', locals: { member: member }
 
-      .member-name
-        = link_to member['name'].split(' ').first, member_path(name: member['name'])
+        .member-name
+          = member['name'].split(' ').first
