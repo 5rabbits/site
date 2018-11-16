@@ -27,19 +27,22 @@
 
       .row
         .col-lg
-          .tbx
-            = image_tag 'tbx.png'
-            %p= t('application.apps.tbx')
+          = link_to 'https://www.thetimebilling.com', target: '_blank' do
+            .tbx
+              = image_tag 'tbx.png'
+              %p= t('application.apps.tbx')
 
         .col-lg
-          .ct
-            = image_tag 'ct.png'
-            %p= t('application.apps.ct')
+          = link_to 'https://www.thecasetracking.com', target: '_blank' do
+            .ct
+              = image_tag 'ct.png'
+              %p= t('application.apps.ct')
 
         .col-lg
-          .ipm
-            = image_tag 'ipm.png'
-            %p= t('application.apps.ipm')
+          = link_to 'https://www.theipmanager.com', target: '_blank' do
+            .ipm
+              = image_tag 'ipm.png'
+              %p= t('application.apps.ipm')
 
       .call-to-action
         = link_to 'https://www.lemontech.com', class: 'btn btn-outline-primary btn-lg', target: :_blank, rel: 'noopener noreferrer' do

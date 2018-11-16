@@ -152,6 +152,10 @@
   .our-apps {
     display: flex;
 
+    a:hover {
+      text-decoration: none;
+    }
+
     .tbx,
     .ct,
     .ipm {
