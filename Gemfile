@@ -63,7 +63,7 @@ end
 
 group :production do
   gem 'pg'
-  gem 'unicorn'
+  gem 'unicorn', '4.9.0'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
