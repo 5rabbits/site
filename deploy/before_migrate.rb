@@ -17,7 +17,6 @@ file '.env' do
   content env.map { |k, v| "#{k}=#{v}" }.join("\n")
 end
 
-
 execute 'rake assets:precompile' do
   cwd current_release
   command 'bundle exec rake assets:precompile'
