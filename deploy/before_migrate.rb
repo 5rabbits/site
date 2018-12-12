@@ -1,5 +1,20 @@
 Chef::Log.info('Running deploy/before_migrate.rb in myapp app...')
 rails_env = new_resource.environment['RAILS_ENV']
+deploy = new_resource.params[:deploy_data]
+
+env = {
+  SECRET_KEY_BASE: new_resource.environment['SECRET_KEY_BASE'],
+  BLOG: new_resource.environment['BLOG']
+}
+
+file '.env' do
+  cwd current_release
+  group deploy[:group]
+  owner deploy[:user]
+  mode 0775
+  action :create
+  content env.map { |k, v| "#{k}=#{v}" }.join("\n")
+end
 
 current_release = release_path
 execute 'rake assets:precompile' do
