@@ -24,6 +24,8 @@ class ApplicationController < ActionController::Base
       { name: 'Laravel', weight: 1 },
       { name: 'VueJS', weight: 1 },
     ].shuffle
+
+    @blog_url = ENV['BLOG_URL']
   end
 
   def team
@@ -61,7 +63,7 @@ class ApplicationController < ActionController::Base
   def blog_feed
     blog_url = ENV['BLOG_FEED']
     feed = Feedjira::Feed.fetch_and_parse(blog_url)
-    feed.entries[0..6]
+    feed.entries.sort { |x,y| y.published <=> x.published }[0..6]
   end
 
   def find_by_name(team, name)
