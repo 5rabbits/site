@@ -59,7 +59,7 @@ class ApplicationController < ActionController::Base
   private
 
   def blog_feed
-    blog_url = "#{ENV['BLOG']}/feed"
+    blog_url = ENV['BLOG_FEED']
     feed = Feedjira::Feed.fetch_and_parse(blog_url)
     feed.entries[0..6]
   end
