@@ -37,7 +37,7 @@
                 = t('application.community.link')
 
             %li.nav-item
-              = link_to blog_url, class: 'nav-link', target: :_blank, rel: 'noopener noreferrer' do
+              = link_to @blog_url, class: 'nav-link', target: :_blank, rel: 'noopener noreferrer' do
                 = t('application.blog.link')
 
     = yield
@@ -62,7 +62,7 @@
                 = t('application.community.link')
 
             %li
-              = link_to blog_url, class: 'nav-link', target: :_blank, rel: 'noopener noreferrer' do
+              = link_to @blog_url, class: 'nav-link', target: :_blank, rel: 'noopener noreferrer' do
                 = t('application.blog.link')
 
         .app-copyright
