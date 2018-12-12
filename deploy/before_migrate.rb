@@ -8,8 +8,7 @@ env = {
   BLOG: new_resource.environment['BLOG']
 }
 
-file '.env' do
-  cwd current_release
+file "#{current_release}/.env" do
   group deploy[:group]
   owner deploy[:user]
   mode 0775
